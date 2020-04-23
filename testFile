@@ -1,0 +1,35 @@
+Test case conditions:
+
+1. creating team
+    we cannot create duplicate teams
+    alignment should be good, bad, neutral that will depends on the alignment of super hero added to the team
+    if no allignment is given to the team it will take neutral initially
+
+2. create super hero
+    we need to specify name and alignment and alignment sholud be good, bad and neutral
+
+3. Add super hero to team
+    Adds super hero to team members array.
+    takes super hero id and team id validations are there if any of the id is incorrect
+
+4. Remove super hero
+    Removes super hero from super hero documents
+    Also removes superheroid from all teams in the members array
+
+5. Remove super hero from team
+    Removes id from team members array in team.
+
+6. Show teams
+    shows all teams present
+
+7. Show super Heros
+    shows all super Heros
+
+8. Retrive team by id
+    retrives team by teamID
+
+9. Retrive super hero by id
+    retrives super hero by id
+
+10. Remove team
+    removes team by taking id from body
